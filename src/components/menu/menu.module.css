@@ -1,0 +1,29 @@
+.container__wrapper {
+  flex: 3 3 0;
+  background-color: red;
+}
+
+.container__navbar {
+  flex: 4 4 0;
+}
+
+.container__navbar > ul {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  padding: 0;
+  margin: 0;
+}
+
+.container__navbar a {
+  color: inherit;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  text-align: center;
+  /* vertical-align: middle; ???*/
+  width: 100%;
+  height: 100%;
+}
